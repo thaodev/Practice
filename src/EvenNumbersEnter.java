@@ -14,6 +14,7 @@ public class EvenNumbersEnter {
         System.out.println("Array before being deleted an element: " + array);
         System.out.println("What string do you want to delete? ");
         String deleteElement = sc.next();
+
         array.remove(String.valueOf(deleteElement));
         System.out.println("Array after being deleted an element: " + array);
 
